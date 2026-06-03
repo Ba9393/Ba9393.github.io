@@ -37,7 +37,7 @@ img {
   vertical-align: top;
 }
 
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
   .p2 {
     display: block;
   }
@@ -46,4 +46,4 @@ img {
     width: 60%;
     margin: auto;
   }
-}
+} */
