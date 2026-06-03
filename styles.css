@@ -8,4 +8,25 @@
 
 p, h1, h2, h3, h4, h5, h6, a {
   font-family: Varela Round, arial;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+img {
+  background-color: #f0f0f0;
+  border-radius: 30px;
+}
+
+.p1 {
+  background-color: #f0f0f0;
+  border: 5px solid #a0a0a0;
+  border-radius: 30px;
+  padding: 50px;
+  margin: 20px auto;
+  width: 90%;
 }
