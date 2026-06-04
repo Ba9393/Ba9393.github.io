@@ -24,12 +24,12 @@
 </div>
 
 <!-- gotta make a dark mode switch -->
-
+<br><br><br><br><br><br><br>
 <h1>welcome to my site</h1>
-
+<br><br><br><br><br>
 <div class="p1">
     <div>
-    <div class="p2"><h1>explore my useless shi</h1><br><h2>hand crafted by urs truly :) (dont sue pls)<br><a href="https://github.com/Ba9393">GitHub account</a></h2></div><img src="useless_shi.png" alt="Useless Shi" style="width: 50%; height: auto; display: inline-block;">
+    <div class="p2"><h1>explore my useless shi</h1><br><h2>hand crafted by urs truly :) (dont sue pls)<br><br><br><a href="https://github.com/Ba9393" class="buttonlink">github account</a></h2></div><img src="useless_shi.png" alt="Useless Shi" style="width: 50%; height: auto; display: inline-block;">
     </div>
 </div>
 
@@ -39,7 +39,7 @@
 <script>
   const toggleSwitch = document.querySelector('.switch input[type="checkbox"]');
   const body = document.body;
-  const elements = document.querySelectorAll("body > :not(.topnav), body");
+  const elements = document.querySelectorAll("body > :not(.topnav), body, .p1, .buttonlink");
 
   function updateTheme() {
     elements.forEach(element => {
@@ -50,12 +50,20 @@
                 element.style.backgroundColor = '#111111';
                 element.style.border = "5px solid #000000";
             }
+            if (element.classList.contains('buttonlink')) {
+                element.style.backgroundColor = '#020202';
+                element.style.color = '#ffffff';
+            }
         } else {
             element.style.backgroundColor = '#ffffff';
             element.style.color = '#000000';
             if (element.classList.contains('p1')) {
                 element.style.backgroundColor = '#f0f0f0';
                 element.style.border = "5px solid #a0a0a0";
+            }
+            if (element.classList.contains('buttonlink')) {
+                element.style.backgroundColor = '#cccccc';
+                element.style.color = '#1866a5';
             }
         }
     });

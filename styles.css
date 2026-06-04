@@ -11,6 +11,8 @@
   background-color: #333;
   overflow: hidden;
   border-radius: 34px;
+  position: fixed;
+  width: 99%;
 }
 
 /* Style the links inside the navigation bar */
@@ -114,6 +116,14 @@ img {
   border-radius: 30px;
 }
 
+.buttonlink {
+  color: #1866a5;
+  text-decoration: none;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 30px;
+}
+
 .p1 {
   background-color: #f0f0f0;
   border: 5px solid #a0a0a0;
@@ -124,6 +134,8 @@ img {
 }
 
 .p2 {
+  position: relative;
+  top: 50%;
   width: 50%;
   display: inline-block;
   vertical-align: top;
