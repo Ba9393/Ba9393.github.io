@@ -10,10 +10,11 @@
 .topnav {
   background-color: #333;
   overflow: hidden;
+  border-radius: 34px;
 }
 
 /* Style the links inside the navigation bar */
-.topnav a {
+.topnav a, .topnav p{
   float: left;
   color: #f2f2f2;
   text-align: center;
@@ -30,13 +31,12 @@
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #ff9100;
   color: white;
 }
 
 /* The switch - the box around the slider */
 .switch {
-  /* gotta make it stay on the right and the middle of the nav bar */
   position: relative;
   display: inline-block;
   width: 60px;
@@ -76,11 +76,11 @@
 }
 
 input:checked + .slider {
-  background-color: #2196F3;
+  background-color: #1866a5;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+  box-shadow: 0 0 1px #1866a5;
 }
 
 input:checked + .slider:before {
@@ -139,3 +139,10 @@ img {
     margin: auto;
   }
 } */
+
+#darkmode {
+  position: fixed;
+  top: 15px;
+  right: 18px;
+  z-index: 1000;
+}
